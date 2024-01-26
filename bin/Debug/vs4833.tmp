@@ -1,0 +1,990 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SalesandInventorySystem
+</name>
+</assembly>
+<members>
+<member name="M:Sales_and_Inventory_System.Encryption.Boring(System.String)">
+	<summary>
+ moving all characters in string insert then into new index
+ </summary>
+	<param name="st">string to moving characters</param>
+	<returns>moved characters string</returns>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.VoucherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.Voucher_OtherDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.CompanyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.VoucherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.Voucher_OtherDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.CompanyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.VoucherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.Voucher_OtherDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet.CompanyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.VoucherTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.Voucher_OtherDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.CompanyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sales_and_Inventory_System.Voucher_DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sales_and_Inventory_System.Voucher_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sales_and_Inventory_System.Voucher_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.UpdateAll(Sales_and_Inventory_System.Voucher_DBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sales_and_Inventory_System.Voucher_DBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ActivationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CompanyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Company_ContactsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_PaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.InvoiceInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.LogsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Product_JoinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.QuotationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Quotation_JoinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ServiceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.StockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Stock_ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SubCategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SupplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Temp_StockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ActivationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CompanyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Company_ContactsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_PaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.InvoiceInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.LogsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Product_JoinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.QuotationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Quotation_JoinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ServiceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.StockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Stock_ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SubCategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SupplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Temp_StockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ActivationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CompanyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Company_ContactsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.CustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_PaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Invoice_ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.InvoiceInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.LogsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Product_JoinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.QuotationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Quotation_JoinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.ServiceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.StockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Stock_ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SubCategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.SupplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet.Temp_StockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.ActivationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.CategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.CompanyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Company_ContactsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.CustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Invoice_PaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Invoice_ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.InvoiceInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.LogsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Product_JoinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.QuotationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Quotation_JoinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.ServiceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.StockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Stock_ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.SubCategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.SupplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.Temp_StockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sales_and_Inventory_System.SIS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sales_and_Inventory_System.SIS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sales_and_Inventory_System.SIS_DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.UpdateAll(Sales_and_Inventory_System.SIS_DBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources._12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.add_stock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.background_screen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Billing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Company1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Entypo_e731_0__512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.fevicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.find_customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Hotels_B_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.login_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.login_icon__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Logs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.new_customers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.photo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Product">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.quotation_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.record_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.reports">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.reports1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.search_invoice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.service_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.stock_in_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Summary">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.user_regestration">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Voucher">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ActivationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CompanyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Company_ContactsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_PaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_PaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfo1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.LogsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Product_JoinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.QuotationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Quotation_JoinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ServiceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.StockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Stock_ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SubCategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SupplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Temp_StockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ActivationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CompanyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Company_ContactsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_PaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_PaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfo1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.LogsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Product_JoinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.QuotationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Quotation_JoinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ServiceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.StockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Stock_ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SubCategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SupplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Temp_StockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ActivationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CompanyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Company_ContactsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.CustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_PaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice_ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_PaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Invoice1_ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.InvoiceInfo1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.LogsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Product_JoinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.QuotationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Quotation_JoinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.ServiceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.StockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Stock_ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SubCategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.SupplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1.Temp_StockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.ActivationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.CategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.CompanyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Company_ContactsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.CustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Invoice_PaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Invoice_ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Invoice1_PaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Invoice1_ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.InvoiceInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.InvoiceInfo1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.LogsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Product_JoinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.QuotationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Quotation_JoinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.ServiceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.StockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Stock_ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.SubCategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.SupplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.Temp_StockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Sales_and_Inventory_System.SIS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Sales_and_Inventory_System.SIS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Sales_and_Inventory_System.SIS_DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.UpdateAll(Sales_and_Inventory_System.SIS_DBDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sales_and_Inventory_System.SIS_DBDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

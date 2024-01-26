@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SalesandInventorySystem
+</name>
+</assembly>
+<members>
+<member name="P:Sales_and_Inventory_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources._12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.add_stock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.background_screen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Billing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.fevicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.find_customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.login_icon__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Logs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.new_customers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.photo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Product">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.reports">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.reports1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.search_invoice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.Summary">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.supplier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sales_and_Inventory_System.My.Resources.Resources.user_regestration">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Sales_and_Inventory_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Sales_and_Inventory_System.Encryption.Boring(System.String)">
+	<summary>
+ moving all characters in string insert then into new index
+ </summary>
+	<param name="st">string to moving characters</param>
+	<returns>moved characters string</returns>
+</member>
+</members>
+</doc>
